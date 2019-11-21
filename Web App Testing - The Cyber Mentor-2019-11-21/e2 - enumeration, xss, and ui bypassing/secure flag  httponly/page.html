@@ -1,0 +1,7 @@
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Secure flag &amp; HttpOnly</title>
+</head><body>secure flag doesn't allow a cookie to be transfered in clear text, so if you're using https and someone decrypts it, he still wont be able to see the cookie in clear text<br/>
+<br/>
+HttpOnly means that the cookie cannot be accessed through the client side script (doesn't allow xss to steal the cookie)</body></html>

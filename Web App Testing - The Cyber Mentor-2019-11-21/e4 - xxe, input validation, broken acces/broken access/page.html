@@ -1,0 +1,9 @@
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Broken Access</title>
+</head><body><img src="image.png"/><br/>
+<br/>
+some access control only checks the first of duplicate parameters so sending 2 of the same &quot;bad&quot; parameters, only one of them will be flagged and the other will pass through<br/>
+<br/>
+also just because the ui filters your input, doesn't mean that the server filters so sometimes can submit malicious xss in the parameters of a request. for example an xss script set to be a user's username when registering is a very dangerous stored xss</body></html>

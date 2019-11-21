@@ -1,0 +1,205 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<style>
+.node
+{
+    padding-left: 20px;
+    display: block;
+}
+
+.node_collapsed
+{
+    padding-left: 20px;
+    display: none;
+
+    
+    visibility: hidden;
+    display: none;
+}
+
+
+
+a:active
+{
+text-decoration:none;
+color: #0000FF;
+font-weight: bold;
+}
+
+a:visited
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:link
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:hover
+{
+text-decoration: underline;
+color: #500;
+font-weight: bold;
+}
+
+</style>
+
+
+<script language="javascript">
+  
+    var displayStates = [];
+
+    function showDiv(div)
+    {    
+        div.style.height     = "";
+        div.style.display    = "block";
+        div.style.visibility = "visible";
+    }
+
+    function hideDiv(div)
+    {
+        div.style.height     = "0px";
+        div.style.display    = "none";      
+        div.style.visibility = "hidden";
+    }
+
+    function toggleDiv(div, defaultState)
+    {
+
+        // set default on first use
+        if (displayStates[div] == undefined)
+            displayStates[div] = defaultState;
+
+        // toggle state
+        displayStates[div] = !displayStates[div];       
+
+        // hide / show
+        if (displayStates[div])
+            showDiv(div);
+        else {
+            hideDiv(div);
+        }
+    }
+
+    function toggleDivName(divname, defaultState)
+    {
+        toggleDiv(document.getElementById(divname), defaultState);
+    }
+
+</script>
+
+<nobr><tt><a href='javascript: toggleDivName("025ee4b3-7605-4296-b90e-796fcf68ffce", true)'>+</a>&nbsp;</tt>Web App Testing - The Cyber Mentor</nobr><br/>
+<div id='025ee4b3-7605-4296-b90e-796fcf68ffce' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='info/page.html' target='viewer'>Info</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("c8479c99-216e-429d-8156-a87b3cc05795", false)'>+</a>&nbsp;</tt>E1 - Enumeration</nobr><br/>
+<div id='c8479c99-216e-429d-8156-a87b3cc05795' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/what%20well%20learn/page.html' target='viewer'>What We'll Learn</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("5f5845a4-6e65-4f8a-9568-6091233f1df4", true)'>+</a>&nbsp;</tt><a href='e1%20-%20enumeration/resources/page.html' target='viewer'>Resources</a></nobr><br/>
+<div id='5f5845a4-6e65-4f8a-9568-6091233f1df4' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/resources/bug%20bounties/page.html' target='viewer'>Bug Bounties</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("e4c97924-8719-4e67-9340-aefa341aa4db", true)'>+</a>&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/page.html' target='viewer'>The Five Stages of Hacking</a></nobr><br/>
+<div id='e4c97924-8719-4e67-9340-aefa341aa4db' class='node'><nobr><tt><a href='javascript: toggleDivName("2416b89a-aca8-421f-a619-a7919b1c1264", true)'>+</a>&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/reconnaissance/page.html' target='viewer'>Reconnaissance</a></nobr><br/>
+<div id='2416b89a-aca8-421f-a619-a7919b1c1264' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/reconnaissance/target%20validation/page.html' target='viewer'>Target Validation</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/reconnaissance/finding%20subdomain/page.html' target='viewer'>Finding Subdomain</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/reconnaissance/fingerprinting/page.html' target='viewer'>Fingerprinting</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/reconnaissance/data%20breaches/page.html' target='viewer'>Data Breaches</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/scanning%20and%20enumaration/page.html' target='viewer'>Scanning and Enumaration</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/gaining%20access/page.html' target='viewer'>Gaining Access</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/maintaining%20access/page.html' target='viewer'>Maintaining Access</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/the%20five%20stages%20of%20hacking/covering%20tracks/page.html' target='viewer'>Covering Tracks</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("8cb4823e-1b37-416c-8318-def572ee2552", true)'>+</a>&nbsp;</tt><a href='e1%20-%20enumeration/irobot/page.html' target='viewer'>iRobot</a></nobr><br/>
+<div id='8cb4823e-1b37-416c-8318-def572ee2552' class='node'><nobr><tt><a href='javascript: toggleDivName("e2182292-3fd7-4e0d-879a-95c0461504db", true)'>+</a>&nbsp;</tt><a href='e1%20-%20enumeration/irobot/burp%20suite/page.html' target='viewer'>Burp Suite</a></nobr><br/>
+<div id='e2182292-3fd7-4e0d-879a-95c0461504db' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/burp%20suite/foxyproxy/page.html' target='viewer'>FoxyProxy</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("f63994e6-35e8-47b8-831f-2326c145c2e3", true)'>+</a>&nbsp;</tt><a href='e1%20-%20enumeration/irobot/burp%20suite/target%20tab/page.html' target='viewer'>target tab</a></nobr><br/>
+<div id='f63994e6-35e8-47b8-831f-2326c145c2e3' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/burp%20suite/target%20tab/scope/page.html' target='viewer'>scope</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/burp%20suite/target%20tab/scan/page.html' target='viewer'>scan</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/burp%20suite/target%20tab/securityheaders.com/page.html' target='viewer'>securityheaders.com</a></nobr><br/>
+</div>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/scope/page.html' target='viewer'>scope</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/sublist3r/page.html' target='viewer'>Sublist3r</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/crt.sh/page.html' target='viewer'>crt.sh</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/builtwith/page.html' target='viewer'>BuiltWith</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/wappalyzer/page.html' target='viewer'>Wappalyzer</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/hunter.io/page.html' target='viewer'>hunter.io</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/weleakinfo.com/page.html' target='viewer'>weleakinfo.com</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/nikto/page.html' target='viewer'>nikto</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("aec34865-c476-4707-b2a0-a3391bcb8279", true)'>+</a>&nbsp;</tt><a href='e1%20-%20enumeration/irobot/nmap/page.html' target='viewer'>nmap</a></nobr><br/>
+<div id='aec34865-c476-4707-b2a0-a3391bcb8279' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/nmap/--script%3Dssl-enum-ciphers/page.html' target='viewer'>--script=ssl-enum-ciphers</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e1%20-%20enumeration/irobot/nmap/-a%20-t4/page.html' target='viewer'>-A -T4</a></nobr><br/>
+</div>
+</div>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("885d37ec-c4a7-4990-8231-a540e1ce5ea9", false)'>+</a>&nbsp;</tt>E2 - Enumeration, XSS, and UI Bypassing</nobr><br/>
+<div id='885d37ec-c4a7-4990-8231-a540e1ce5ea9' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='e2%20-%20enumeration%2C%20xss%2C%20and%20ui%20bypassing/what%20we%20found%20with%20burp%202/page.html' target='viewer'>What we found with burp</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("ed9e0343-bf8e-4ba2-b37b-ab063ce0c9f6", true)'>+</a>&nbsp;</tt><a href='e2%20-%20enumeration%2C%20xss%2C%20and%20ui%20bypassing/xss/page.html' target='viewer'>XSS</a></nobr><br/>
+<div id='ed9e0343-bf8e-4ba2-b37b-ab063ce0c9f6' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='e2%20-%20enumeration%2C%20xss%2C%20and%20ui%20bypassing/xss/reflected/page.html' target='viewer'>reflected</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e2%20-%20enumeration%2C%20xss%2C%20and%20ui%20bypassing/xss/dom/page.html' target='viewer'>DOM</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e2%20-%20enumeration%2C%20xss%2C%20and%20ui%20bypassing/xss/stored/page.html' target='viewer'>Stored</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e2%20-%20enumeration%2C%20xss%2C%20and%20ui%20bypassing/code%20manipulation%20-%20ui%20bypassing/page.html' target='viewer'>Code manipulation / UI Bypassing</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e2%20-%20enumeration%2C%20xss%2C%20and%20ui%20bypassing/secure%20flag%20%20httponly/page.html' target='viewer'>Secure flag &amp; HttpOnly</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("04068369-d18a-4106-824b-ea2ec63abf2e", false)'>+</a>&nbsp;</tt>E3 - XSS, SQL Injection, and Broken Access Control</nobr><br/>
+<div id='04068369-d18a-4106-824b-ea2ec63abf2e' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/broken%20access/page.html' target='viewer'>Broken Access</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/what%20well%20learn/page.html' target='viewer'>What we'll learn</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/xss/page.html' target='viewer'>Xss</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/broken%20access%20control/page.html' target='viewer'>broken access control</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/file%20uploading/page.html' target='viewer'>file uploading</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/xxe/page.html' target='viewer'>XXE</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("2da861e6-92cc-46c4-b9bf-aa03680419dc", false)'>+</a>&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/sqli/page.html' target='viewer'>SQLi</a></nobr><br/>
+<div id='2da861e6-92cc-46c4-b9bf-aa03680419dc' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/sqli/example/page.html' target='viewer'>example</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/intruder/page.html' target='viewer'>intruder</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e3%20-%20xss%2C%20sql%20injection%2C%20and%20broken%20acce/securitytxt.org%20%20disclose.io/page.html' target='viewer'>securitytxt.org &amp; disclose.io</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("d9b36df3-edca-4087-92c9-1ec5e0de81a3", false)'>+</a>&nbsp;</tt>E4 - XXE, Input Validation, Broken Access Control, and More XSS</nobr><br/>
+<div id='d9b36df3-edca-4087-92c9-1ec5e0de81a3' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='e4%20-%20xxe%2C%20input%20validation%2C%20broken%20acces/what%20well%20learn/page.html' target='viewer'>What we'll learn</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e4%20-%20xxe%2C%20input%20validation%2C%20broken%20acces/input%20validation/page.html' target='viewer'>Input Validation</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e4%20-%20xxe%2C%20input%20validation%2C%20broken%20acces/capcha%20bypassing%20-%20rest%20api/page.html' target='viewer'>Capcha Bypassing \ Rest API</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e4%20-%20xxe%2C%20input%20validation%2C%20broken%20acces/broken%20access/page.html' target='viewer'>Broken Access</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("24c1e63e-7389-4b8a-82fa-2684bf732ce3", true)'>+</a>&nbsp;</tt><a href='e4%20-%20xxe%2C%20input%20validation%2C%20broken%20acces/xxe/page.html' target='viewer'>XXE</a></nobr><br/>
+<div id='24c1e63e-7389-4b8a-82fa-2684bf732ce3' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='e4%20-%20xxe%2C%20input%20validation%2C%20broken%20acces/xxe/dtd/page.html' target='viewer'>dtd</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e4%20-%20xxe%2C%20input%20validation%2C%20broken%20acces/xxe/example/page.html' target='viewer'>example</a></nobr><br/>
+</div>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("c82cbb90-b56e-4e73-9c81-f638ad934839", false)'>+</a>&nbsp;</tt>E5 - SQL Injections and Live Bug Bounty Hunting</nobr><br/>
+<div id='c82cbb90-b56e-4e73-9c81-f638ad934839' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='e5%20-%20sql%20injections%20and%20live%20bug%20bounty/what%20well%20learn/page.html' target='viewer'>What we'll learn</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("c227c686-3572-4c9f-a3da-2c2fc4be7100", true)'>+</a>&nbsp;</tt><a href='e5%20-%20sql%20injections%20and%20live%20bug%20bounty/sqli/page.html' target='viewer'>SQLi</a></nobr><br/>
+<div id='c227c686-3572-4c9f-a3da-2c2fc4be7100' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='e5%20-%20sql%20injections%20and%20live%20bug%20bounty/sqli/example/page.html' target='viewer'>example</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e5%20-%20sql%20injections%20and%20live%20bug%20bounty/sqli/sqlmap/page.html' target='viewer'>sqlmap</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e5%20-%20sql%20injections%20and%20live%20bug%20bounty/sqli/blind%20sql/page.html' target='viewer'>blind sql</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='e5%20-%20sql%20injections%20and%20live%20bug%20bounty/poison%20null%20byte/page.html' target='viewer'>poison null byte</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("205958a5-a818-470f-b71e-066de84ead05", true)'>+</a>&nbsp;</tt><a href='example%20bug%20bounty/page.html' target='viewer'>example bug bounty</a></nobr><br/>
+<div id='205958a5-a818-470f-b71e-066de84ead05' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='example%20bug%20bounty/enumaration/page.html' target='viewer'>enumaration</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("eb482a3b-10d3-4c61-ab5a-c165e155d2f4", false)'>+</a>&nbsp;</tt><a href='trash' target='viewer'>Trash</a></nobr><br/>
+<div id='eb482a3b-10d3-4c61-ab5a-c165e155d2f4' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt>New Folder</nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page/page.html' target='viewer'>New Page</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page%202/page.html' target='viewer'>New Page</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page%203/page.html' target='viewer'>New Page</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page%204/page.html' target='viewer'>New Page</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page%205/page.html' target='viewer'>New Page</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page%206/page.html' target='viewer'>New Page</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/owaspv4_checklist.xlsx/owaspv4_checklist.xlsx' target='viewer'>OWASPv4_Checklist.xlsx</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/owaspv4_checklist.xlsx%202/owaspv4_checklist.xlsx' target='viewer'>OWASPv4_Checklist.xlsx</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/owaspv4_checklist.xlsx%203/owaspv4_checklist.xlsx' target='viewer'>OWASPv4_Checklist.xlsx</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/owaspv4_checklist.xlsx%204/owaspv4_checklist.xlsx' target='viewer'>OWASPv4_Checklist.xlsx</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/untitled.xls/spreadsheet.xls' target='viewer'>untitled.xls</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page%207/page.html' target='viewer'>New Page</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page%208/page.html' target='viewer'>New Page</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/3040/page.html' target='viewer'>30:40</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page%209/page.html' target='viewer'>New Page</a></nobr><br/>
+</div>
+</div>
+</body></html>

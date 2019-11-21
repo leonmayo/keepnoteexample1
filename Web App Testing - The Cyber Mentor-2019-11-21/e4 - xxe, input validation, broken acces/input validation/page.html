@@ -1,0 +1,12 @@
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Input Validation</title>
+</head><body>Start by intercepting a request to register a user and use the repeater to easily use burp to register users<br/>
+<br/>
+notice the response to the request, alot of details come back with it<br/>
+if the response return the details of the paramaters of the request (like email:&quot;example@a.b&quot;,username:&quot;examuser&quot;) and there are more paramaters that could not be normally changed with the ui of the requests<br/>
+<br/>
+<img src="image.png"/>(notice the &quot;isAdmin&quot;)<br/>
+<br/>
+you can change the request and repeat it to try and change those fields and possibly register a user with different settings</body></html>
